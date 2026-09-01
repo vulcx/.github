@@ -7,7 +7,7 @@
 Give it a token pair and an amount. Vulcx searches every pool on Fogo — up to five hops, splitting size across paths when splitting wins — and hands back a transaction ready to sign.
 
 [![Try a swap](https://img.shields.io/badge/TRY_A_SWAP-0B0B0F?style=for-the-badge)](https://vulcx.xyz)
-[![Free during beta](https://img.shields.io/badge/FREE_DURING_BETA-FF3D01?style=for-the-badge&labelColor=0B0B0F)](https://docs.vulcx.xyz/get-started/authentication)
+[![Get an API key](https://img.shields.io/badge/GET_AN_API_KEY-FF3D01?style=for-the-badge&labelColor=0B0B0F)](https://vulcx.xyz/api-key/)
 [![Read the docs](https://img.shields.io/badge/READ_THE_DOCS-0B0B0F?style=for-the-badge)](https://docs.vulcx.xyz)
 [![Status](https://img.shields.io/badge/STATUS-0B0B0F?style=for-the-badge)](https://vulcx.xyz/status/)
 
@@ -50,7 +50,7 @@ const quote = await vulcx.quote({
 console.log(`Output: ${quote.amountOut}, Impact: ${quote.priceImpactPercent}`);
 ```
 
-Keys are issued by hand during beta and cost nothing — [ask on Telegram](https://t.me/vulcxsupport).
+Keys are free during beta and issued by hand — [request one](https://vulcx.xyz/api-key/), or [ask on Telegram](https://t.me/vulcxsupport).
 
 ## Repositories
 
